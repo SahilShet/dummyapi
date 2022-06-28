@@ -1,0 +1,682 @@
+{
+  "status": true,
+  "message": "purchase invoice details",
+  "response": {
+    "id": 184,
+    "vendor_id": 83,
+    "payment_terms": "Net 15",
+    "invoice_number": "SKY/INV/27/06/002",
+    "purchase_order_number": "SKYPOOOO2",
+    "invoice_date": "27-06-2022",
+    "payment_due_date": "30-06-2022",
+    "tax_id": "GST Applicable",
+    "amount": 30000,
+    "category_id": 1,
+    "gl_vendor": 2,
+    "description": "",
+    "status_id": 0,
+    "status_name": "Un-Submitted",
+    "tax_values": [
+      {
+        "cost": "1500",
+        "tax_type": "4"
+      }
+    ],
+    "vendor_name": "Trivkiram Reddy",
+    "created_at": "2022-06-27T08:32:25.119Z",
+    "tds": "Payment of contractors for others - 2%",
+    "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+    "user_id": "e7422386-bc47-46a1-baf8-7f1326311e33",
+    "invoice_date_show": "27-Jun-2022",
+    "total_amount": 30900,
+    "payment_due_date_show": "30-Jun-2022",
+    "approvable": false,
+    "payable": false,
+    "balance_amount": 30900,
+    "approvers": null,
+    "company_name": "Skynet Worldwide Express",
+    "star_vendor": true,
+    "amount_monetary": "₹30,000.00",
+    "total_amount_monetary": "₹30,900.00",
+    "balance_amount_monetary": "₹30,900.00",
+    "owner_name": "Prateek",
+    "user_type": "admin",
+    "receipts": [],
+    "vendor": {
+      "id": 83,
+      "salutation": "Mr.",
+      "company_name": "Skynet Worldwide Express",
+      "email": "treddy@skynet.gmail.com",
+      "company_phone": 8751924103,
+      "mobile": 8195318500,
+      "designation": "",
+      "department": "",
+      "gst_treatment": "Registered Business - Composition scheme",
+      "gst_number": "0",
+      "currency": "INR",
+      "payment_terms": "Net 15",
+      "tds": "Commission or Brokerage - 5%",
+      "contact_persons": [
+        {
+          "email": "skumar@skynet.gmail.com",
+          "mobile": "9594520101",
+          "last_name": "Kumar",
+          "first_name": "Sainath",
+          "salutation": "Mr.",
+          "work_phone": "9594520100"
+        }
+      ],
+      "primary_contact": {
+        "last_name": "Reddy",
+        "first_name": "Trivkiram"
+      },
+      "pan": "REDDY2910T",
+      "addresses": [
+        {
+          "id": 312,
+          "attention": "Mr",
+          "country": "IN",
+          "city": "Hyderabad",
+          "state": "TG",
+          "zip": "500024",
+          "phone": 9850230101,
+          "fax": 565,
+          "address_type": "billing_address",
+          "entity_id": 83,
+          "entity_type": "Vendor",
+          "created_at": "2022-06-27T09:49:32.502Z",
+          "updated_at": "2022-06-27T09:49:32.502Z",
+          "street_1": "Road Number 5, Jubilee Hills",
+          "street_2": "Checkposts"
+        },
+        {
+          "id": 313,
+          "attention": "Mr",
+          "country": "IN",
+          "city": "Amaravati",
+          "state": "AP",
+          "zip": "500241",
+          "phone": 9650210202,
+          "fax": 567,
+          "address_type": "shipping_address",
+          "entity_id": 83,
+          "entity_type": "Vendor",
+          "created_at": "2022-06-27T09:49:32.517Z",
+          "updated_at": "2022-06-27T09:49:32.517Z",
+          "street_1": "Warehouse #6, Madhura Nagar",
+          "street_2": "Shyaamanthapur"
+        }
+      ],
+      "bank_account_details": [
+        {
+          "id": 137,
+          "account_number": "418292410241",
+          "ifsc": "TSG35190B",
+          "branch": "Jubilee Hills",
+          "entity_id": 83,
+          "entity_type": "Vendor",
+          "created_at": "2022-06-27T09:49:32.537Z",
+          "updated_at": "2022-06-27T09:49:32.537Z",
+          "bank_list_id": 86,
+          "name": "Telangana Grameena Bank"
+        },
+        {
+          "id": 138,
+          "account_number": "",
+          "ifsc": "",
+          "branch": "",
+          "entity_id": 83,
+          "entity_type": "Vendor",
+          "created_at": "2022-06-27T09:49:32.560Z",
+          "updated_at": "2022-06-27T09:49:32.560Z",
+          "bank_list_id": 20,
+          "name": "HDFC Bank Ltd"
+        }
+      ],
+      "payable_amount": 48580,
+      "source_of_supply": "IN",
+      "payable_amount_monetary": "₹48,580.00"
+    },
+    "comments": [
+      {
+        "id": 86,
+        "commentable_id": 184,
+        "commentable_type": "PurchaseInvoice",
+        "body": "Add image 28th current PDD, current date: 27th",
+        "created_at": "2022-06-27T11:16:21.675Z",
+        "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+        "user_id": "1915eeb3-310b-4cb4-b719-a6130ae11a49",
+        "comment_created_at": "27/06/2022 11:16 AM",
+        "comment_created_by": "Ravi",
+        "comment_date": "27 Jun 22 11:16 AM"
+      },
+      {
+        "id": 88,
+        "commentable_id": 184,
+        "commentable_type": "PurchaseInvoice",
+        "body": "Add another image",
+        "created_at": "2022-06-27T11:20:05.547Z",
+        "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+        "user_id": "1915eeb3-310b-4cb4-b719-a6130ae11a49",
+        "comment_created_at": "27/06/2022 11:20 AM",
+        "comment_created_by": "Ravi",
+        "comment_date": "27 Jun 22 11:20 AM"
+      },
+      {
+        "id": 90,
+        "commentable_id": 184,
+        "commentable_type": "PurchaseInvoice",
+        "body": "Tomorrow - > today?",
+        "created_at": "2022-06-27T11:21:24.229Z",
+        "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+        "user_id": "1915eeb3-310b-4cb4-b719-a6130ae11a49",
+        "comment_created_at": "27/06/2022 11:21 AM",
+        "comment_created_by": "Ravi",
+        "comment_date": "27 Jun 22 11:21 AM"
+      },
+      {
+        "id": 92,
+        "commentable_id": 184,
+        "commentable_type": "PurchaseInvoice",
+        "body": "Please insert images.",
+        "created_at": "2022-06-27T11:24:53.586Z",
+        "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+        "user_id": "1915eeb3-310b-4cb4-b719-a6130ae11a49",
+        "comment_created_at": "27/06/2022 11:24 AM",
+        "comment_created_by": "Ravi",
+        "comment_date": "27 Jun 22 11:24 AM"
+      },
+      {
+        "id": 94,
+        "commentable_id": 184,
+        "commentable_type": "PurchaseInvoice",
+        "body": "Add comment",
+        "created_at": "2022-06-27T11:25:45.462Z",
+        "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+        "user_id": "1915eeb3-310b-4cb4-b719-a6130ae11a49",
+        "comment_created_at": "27/06/2022 11:25 AM",
+        "comment_created_by": "Ravi",
+        "comment_date": "27 Jun 22 11:25 AM"
+      }
+    ],
+    "payments": [],
+    "audits": [
+      {
+        "id": 1183,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "create",
+        "audited_changes": {
+          "vendor_id": 83,
+          "payment_terms": 3,
+          "invoice_number": "SKY/INV/27/06/002",
+          "purchase_order_number": "SKYPOOOO2",
+          "invoice_date": "2022-06-27",
+          "payment_due_date": "2022-06-30",
+          "tax_id": 0,
+          "amount": 30000,
+          "tax_values": [
+            {
+              "tax_type": "",
+              "cost": ""
+            }
+          ],
+          "category_id": 1,
+          "gl_vendor": 2,
+          "description": "",
+          "client_id": "89b9585f-f80f-429a-9387-ea3df609f371",
+          "user_id": "e7422386-bc47-46a1-baf8-7f1326311e33",
+          "status_id": 0,
+          "total_amount": 29400,
+          "tds": {
+            "tds_type": "3",
+            "cost": "600"
+          },
+          "approved_by": null,
+          "rejected_by": null,
+          "reject_reason": null,
+          "hierarchy_id": 104,
+          "current_approval_level": 0,
+          "approved_role_ids": null,
+          "pending_role_id": null,
+          "approved_users": null
+        },
+        "version": 1,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "36188a06-8bb0-4154-8a03-c97e5ecf394f",
+        "created_at": "2022-06-27T08:32:25.125Z"
+      },
+      {
+        "id": 1192,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            3,
+            0
+          ],
+          "total_amount": [
+            29400,
+            30000
+          ],
+          "tds": [
+            {
+              "cost": "600",
+              "tds_type": "3"
+            },
+            {
+              "tds_type": "3",
+              "cost": ""
+            }
+          ]
+        },
+        "version": 2,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "7898a2d5-267e-48a2-8af6-f6144830beba",
+        "created_at": "2022-06-27T10:14:58.679Z"
+      },
+      {
+        "id": 1196,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            0,
+            0
+          ]
+        },
+        "version": 3,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "39f5e126-ef20-410b-a6e6-1c6628eaa9bd",
+        "created_at": "2022-06-27T10:23:27.458Z"
+      },
+      {
+        "id": 1197,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            0,
+            0
+          ]
+        },
+        "version": 4,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "f784a73c-c104-407a-b61c-789bd23eb034",
+        "created_at": "2022-06-27T10:24:16.810Z"
+      },
+      {
+        "id": 1198,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            0,
+            0
+          ],
+          "total_amount": [
+            30000,
+            29400
+          ],
+          "tds": [
+            {
+              "cost": "",
+              "tds_type": "3"
+            },
+            {
+              "tds_type": "3",
+              "cost": "600"
+            }
+          ]
+        },
+        "version": 5,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "48cee3cf-d0b5-4c40-88f8-3b1d5f0102b9",
+        "created_at": "2022-06-27T10:27:23.564Z"
+      },
+      {
+        "id": 1199,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            0,
+            0
+          ]
+        },
+        "version": 6,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "e63dfdec-62a6-4fe9-861c-47785185e943",
+        "created_at": "2022-06-27T10:28:46.011Z"
+      },
+      {
+        "id": 1200,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_terms": [
+            0,
+            0
+          ],
+          "tax_id": [
+            0,
+            1
+          ],
+          "tax_values": [
+            [
+              {
+                "cost": "",
+                "tax_type": ""
+              }
+            ],
+            [
+              {
+                "tax_type": "4",
+                "cost": "1500"
+              }
+            ]
+          ],
+          "total_amount": [
+            29400,
+            30900
+          ]
+        },
+        "version": 7,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "95a96e31-1a27-4a0c-ac16-48a36ec5a136",
+        "created_at": "2022-06-27T10:31:37.287Z"
+      },
+      {
+        "id": 1210,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-30",
+            "2022-06-28"
+          ]
+        },
+        "version": 8,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "97109ddf-9594-4b9d-99ff-142f6d13f3bc",
+        "created_at": "2022-06-27T11:14:37.697Z"
+      },
+      {
+        "id": 1212,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-28",
+            "2022-06-27"
+          ]
+        },
+        "version": 9,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "ee898a4f-6a9b-4e45-a7f0-c4e920cda506",
+        "created_at": "2022-06-27T11:16:21.661Z"
+      },
+      {
+        "id": 1214,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-27",
+            null
+          ]
+        },
+        "version": 10,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "bdf79dea-2e4c-4782-a8d0-f653ccdaee4b",
+        "created_at": "2022-06-27T11:20:05.534Z"
+      },
+      {
+        "id": 1216,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            null,
+            "2022-06-28"
+          ]
+        },
+        "version": 11,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "7e281e5a-ca30-4d4b-a339-e53ee8041503",
+        "created_at": "2022-06-27T11:20:56.150Z"
+      },
+      {
+        "id": 1218,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-28",
+            null
+          ]
+        },
+        "version": 12,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "76c9bd56-84ea-4509-948f-d292a150441f",
+        "created_at": "2022-06-27T11:21:24.218Z"
+      },
+      {
+        "id": 1220,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            null,
+            "2022-06-28"
+          ]
+        },
+        "version": 13,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "c0029917-c6fc-4a97-a61e-9a7bf90fbc8f",
+        "created_at": "2022-06-27T11:24:02.311Z"
+      },
+      {
+        "id": 1222,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-28",
+            null
+          ]
+        },
+        "version": 14,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "cbf5c031-d160-4610-b76e-af1669bc6828",
+        "created_at": "2022-06-27T11:24:53.574Z"
+      },
+      {
+        "id": 1224,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            null,
+            "2022-06-28"
+          ]
+        },
+        "version": 15,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "c58bb958-ddcb-4dad-973b-ff222b3b2ae8",
+        "created_at": "2022-06-27T11:25:19.144Z"
+      },
+      {
+        "id": 1226,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-28",
+            null
+          ]
+        },
+        "version": 16,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "91e1649d-6b97-4805-bec4-ef95d591f2e2",
+        "created_at": "2022-06-27T11:25:45.450Z"
+      },
+      {
+        "id": 1231,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            null,
+            "2022-06-28"
+          ]
+        },
+        "version": 17,
+        "comment": null,
+        "remote_address": "183.82.114.140",
+        "request_uuid": "16fb47f4-a079-40fa-808c-77729386e369",
+        "created_at": "2022-06-27T11:46:49.640Z"
+      },
+      {
+        "id": 1248,
+        "auditable_id": 184,
+        "auditable_type": "PurchaseInvoice",
+        "associated_id": null,
+        "associated_type": null,
+        "user_id": null,
+        "user_type": null,
+        "username": null,
+        "action": "update",
+        "audited_changes": {
+          "payment_due_date": [
+            "2022-06-28",
+            "2022-06-30"
+          ]
+        },
+        "version": 18,
+        "comment": null,
+        "remote_address": "49.206.1.117",
+        "request_uuid": "4d6926b4-13e0-4383-be5d-938b15951901",
+        "created_at": "2022-06-27T13:26:23.356Z"
+      }
+    ]
+  },
+  "total_records": 0
+}
